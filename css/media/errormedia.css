@@ -1,0 +1,120 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1230px) {
+    .container {
+        width: 1000px;
+    }
+    .nav-menu > ul > li > a {
+        padding: 0 12.5px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 800px;
+    }
+    .nav-logo {
+        width: 20%;
+    }
+    .nav-menu {
+        width: 80%;
+    }
+    .nav-logo > a > img {
+        width: 100%;
+    }
+    .back-img {
+        background-position: -100px 0px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .container {
+        width: 650px;
+    }
+    .back-img {
+        background-position: -280px 0px;
+    }
+    .nav-menu > ul > li > a {
+        padding: 0px 8px;
+        font-size: 16px;
+    }
+    .section1-subtitle > a {
+        font-size: 21px;
+        padding: 7px 58.5px;
+    }
+    .section1-subtitle > h2 {
+        font-size: 73px;
+        line-height: 50.9%;
+    }
+    .section1-subtitle > p {
+        font-size: 27px;
+        line-height: 20px;
+        padding: 32px 0 35px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .container {
+        width: 500px;
+    }
+    .nav-flex {
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-top: 25px;
+    }
+    .nav-logo {
+        width: 27%;
+    }
+    .nav-menu {
+        width: 100%;
+    }
+    .nav-menu > ul > li > a {
+        padding: 0px 15px;
+    }
+    .back-img {
+        background-position: -470px 0px;
+    }
+    .section1-subtitle > p {
+        font-size: 20px;
+        line-height: 7px;
+    }
+    .section1-subtitle > h2 {
+        font-size: 64px;
+    }
+    .section1-subtitle > a {
+        font-size: 18px;
+        padding: 4px 50.5px;
+    }    
+}
+@media screen and (max-width: 530px) {
+    .container {
+        width: 90%;
+    }
+    .nav-logo {
+        width: 30%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-mobile__menu {
+        display: block;
+    }
+    .nav-flex {
+        flex-wrap: nowrap;
+        padding-top: 45px;
+    }
+    .back-img {
+        background-size: 80%;
+        background-position: 0 0;
+    }
+    .section1-subtitle > h2 {
+        font-size: 30px;
+    }
+    .section1-subtitle > p {
+        font-size: 15px;
+    }
+    .section1-subtitle > a {
+        font-size: 15px;
+        padding: 0 22px;
+    }
+}

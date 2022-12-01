@@ -1,0 +1,281 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .container {
+        width: 1000px;
+    }
+    .nav-menu {
+        width: 75%;
+    }
+    .nav-logo {
+        width: 20%;
+    }
+    .section2-title > h2 {
+        font-size: 60px;
+        line-height: 105.9%;
+        padding: 149px 266px 76px 217px;
+    }
+    .section3 {
+        padding-top: 80px;
+    }
+    .section3-title > h4 {
+        font-size: 70px;
+    }
+    .section3-inputs > form > input {
+        font-size: 28px;
+        line-height: 100.4%;
+        width: 460px;
+    }
+    textarea {
+        width: 460px;
+        font-size: 28px;
+        line-height: 100.4%;
+        height: 185px;
+    }
+    .footer-text > p {
+        font-size: 26px;
+        line-height: 130.4%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 800px;
+    }
+    .nav-logo > a > img {
+        width: 80%;
+    }
+    .nav-menu > ul > li > a, .mobile-menu-block-item > a {
+        padding: 0 10px;
+    }
+    .section1-title > h3 {
+        font-size: 60px;
+        padding: 57px 0 50px 193px;
+    }
+    .section2-title > h2 {
+        font-size: 55px;
+        padding: 100px 132px 75px 217px;
+    }
+    .section2-flex h4 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .section2-block1 > img, .section2-block2 > img, .section2-block3 > img {
+        margin-left: 20px;
+        width: 75%;
+    }
+    .section2-flex p {
+        font-size: 20px;
+        line-height: 27px;
+        padding-bottom: 5px;
+    }
+    .section2-block1 > p > img, .section2-block2 > p > img, .section2-block3 > p > img {
+        width: 8%;
+    }
+    .section3-title > h4 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .section3-inputs > form > input {
+        font-size: 18px;
+        line-height: 47.4%;
+        width: 350px;
+    }
+    textarea {
+        width: 350px;
+        font-size: 18px;
+        line-height: 50%;
+        height: 160px;
+    }
+    button {
+        font-size: 19px;
+        line-height: 29px;
+        padding: 4px 59.5px;
+        margin-top: 20px;
+    }
+    .section3-img > img {
+        margin: 64px 0px -109px 0;
+    }
+    .footer-text > p {
+        font-size: 19px;
+        padding: 0px 30px 0 0px;
+    }
+    .footer-tel > a, .footer-nav > a {
+        font-size: 21px;
+        line-height: 98.4%;
+        margin-left: 5px;
+    }
+    .footer-pol > a {
+        margin: 25px 0 25px 30px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .container {
+        width: 600px;
+    }
+    .nav-menu > ul > li > a, .mobile-menu-block-item > a {
+        padding: 0 8px;
+        font-size: 13px;
+    }
+    .nav-logo > a > img {
+        width: 70%;
+    }
+    .section1-title > h3 {
+        font-size: 48px;
+        padding: 39px 0 50px 120px;
+    }
+    .section1-flex {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section1-img > img { 
+        width: 12%;
+    }
+    .section2-title > h2 {
+        font-size: 38px;
+        padding: 50px 20px 50px 20px;
+    }
+    .section3-title > h4 {
+        font-size: 45px;
+        text-align: start;
+    }
+    .section3-flex {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .section3-inputs {
+        width: 100%;
+        order: 2;
+    }
+    .section3-text {
+        width: 100%;
+        order: 1;
+    }
+    .section3-img > img {
+        display: none;
+    }
+    .section3-inputs > form > input {
+        width: 500px;
+    }
+    textarea {
+        width: 500px;
+    }
+    .footer-flex {
+        flex-wrap: wrap;
+    }
+    .footer-logo, .footer-tel, .footer-nav {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .footer-pol {
+        text-align: center;
+    }
+    .footer-pol > a {
+        margin: 15px 0 25px 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .container {
+        width: 95%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-flex {
+        padding: 45px 0 22px;
+    }
+    .nav-mobile__menu {
+        display: block;
+        z-index: 1;
+        width: 40%;
+    }
+    .nav-mobile__menu img {
+        width: 23px;
+    }
+    .nav-logo {
+        width: 40%;
+    }
+    .nav-logo > a > img {
+        width: 65%;
+    }
+    .section1-title > h3 {
+        font-size: 30px;
+        padding: 39px 0 46px 10px;
+    }
+    .section1-img {
+        padding: 14px 0 93px;
+    }
+    .section2-title > h2 {
+        font-size: 30px;
+    }
+    .section2-flex h4 {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 16px 0 20px;
+    }
+    .section2-flex p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .section2-block1, .section2-block2, .section2-block3 {
+        width: 30%;
+    }
+    .section3-title > h4 {
+        font-size: 30px;
+        padding-bottom: 11px;
+    }
+    .section3-inputs > form > input {
+        width: 324px;
+        font-size: 13px;
+    }
+    textarea {
+        width: 324px;
+        font-size: 13px;
+    }
+    button {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 2.5px 25.5px;
+        margin-top: 20px;
+        margin-bottom: 93px;
+    }
+    .footer-tel > a, .footer-nav > a {
+        font-size: 15px;
+        line-height: 139.4%;
+        margin-left: 5px;
+    }
+    .footer-logo {
+        order: 1;
+    }
+    .footer-nav {
+        order: 2;
+    }
+    .footer-tel {
+        order: 3;
+    }
+    .footer-nav > img, .footer-tel > img {
+        width: 18px;
+    }
+    .footer-pol > a {
+        font-size: 11px;
+    }
+    .back-cl {
+        background-image: url('/images/gallery/bcmediaimg.png');
+    }
+    .footer-text {
+        display: none;
+    }
+    .footer-pol {
+        width: 100%;
+    }
+    .footer-flex2 {
+        padding-top: 1px;
+    }
+    .nav-bg {
+        box-shadow: 0px -8px 52px rgba(245, 245, 245, 0.17);
+        border-radius: 0px 0px 30px 30px;
+    }
+}

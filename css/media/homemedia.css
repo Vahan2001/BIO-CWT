@@ -1,0 +1,592 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 1200px;
+    }
+    .header-title {
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .container {
+        width: 1000px;
+    }
+    .nav-menu {
+        width: 75%;
+    }
+    .nav-logo {
+        width: 20%;
+    }
+    .title-block > h1 {
+        font-size: 75px;
+        line-height: 105.4%;
+    }
+    .title-img1 > img{
+        width: 80%;
+    }
+    .title-img2 > img {
+        width: 40%;
+    }
+    .title-img1 {
+        padding-top: 60px;
+        padding-right: 0;
+    }
+    .title-img__flex {
+        flex-wrap: wrap;
+    }
+    .title-img2 > img:nth-of-type(1) {
+        padding: 42px 0px 0px;
+    }
+    .section1-title > h2 {
+        font-size: 60px;
+        line-height: 105.9%;
+        padding: 149px 266px 76px 217px;
+    }
+    .title-block > p {
+        padding: 22px 222px 62px 0;
+    }
+    .section2-title > h3 {
+        font-size: 80px;
+        padding: 57px 0 77px 194px;
+    }
+    .section2-img {
+        padding: 23px 0 80px;
+    }
+    .section3-title > h3 {
+        font-size: 62px;
+        padding: 0px 116px 70px 209px;
+    }
+    .section3-text {
+        padding: 0 10px 0px 80px;
+    }
+    .section3-img > img {
+        width: 100%;
+    }
+    .section3-text > p {
+        font-size: 25px;
+    }
+    .section3-flex {
+        padding-bottom: 0;
+    }
+    .section3-button > a {
+        margin-bottom: 105px;
+    }
+    .section4-title > p {
+        font-size: 25px;
+        line-height: 124.4%;
+        padding: 36px 0 130px;
+    }
+    .section4-title > h4 {
+        font-size: 70px;
+        line-height: 105.9%;
+        padding-top: 44px;
+    }
+    .section4-img > img:nth-of-type(3) {
+        margin-left: 0;
+    }
+    .section4-img > img:nth-of-type(2) {
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+    .section4-img > img:nth-of-type(1) {
+        margin-top: 177px;
+        position: absolute;
+        border-radius: 25%;
+        border: 14px solid #1E0C06;
+        left: 5px;
+    }
+    .section4-img > img:nth-of-type(2) {
+        margin-bottom: 0;
+        margin-left: 215px;
+    }
+    .section4-img > img:nth-of-type(3) {
+        margin-left: 130px;
+        margin-top: 264px;
+    }
+    .section5-title > h4 {
+        font-size: 70px;
+    }
+    .section5 {
+        padding-top: 80px;
+    }
+    .section5-inputs > form > input {
+        font-size: 28px;
+        line-height: 100.4%;
+        width: 460px;
+    }
+    textarea {
+        width: 460px;
+        font-size: 28px;
+        line-height: 100.4%;
+        height: 185px;
+    }
+    .section5-text > p {
+        font-size: 27px;
+        line-height: 128.4%;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 800px;
+    }
+    .nav-logo > a > img {
+        width: 80%;
+    }
+    .nav-menu > ul > li > a, .mobile-menu-block-item > a {
+        padding: 0 10px;
+    }
+    .header-title {
+        margin-left: 0%;
+        border-radius: 43px;
+    }
+    .title-block > h1 {
+        font-size: 50px;
+        line-height: 91.4%;
+        padding: 0 50px 0 0;
+    }
+    .title-block > p {
+        padding: 22px 122px 62px 0;
+        font-size: 27px;
+    }
+    .title-img2 > img:nth-of-type(2):hover {
+        transform: translate(0px, 60px);
+    }
+    .title-block > a {
+        font-size: 26px;
+        padding: 8px 53.5px;
+    }
+    .section1-title > h2 {
+        font-size: 55px;
+        padding: 100px 132px 75px 217px;
+    }
+    .section1-flex h4 {
+        font-size: 23px;
+        line-height: 30px;
+    }
+    .section1-block1 > img, .section1-block2 > img, .section1-block3 > img {
+        margin-left: 20px;
+        width: 75%;
+    }
+    .section1-flex p {
+        font-size: 20px;
+        line-height: 27px;
+        padding-bottom: 5px;
+    }
+    .section1-block1 > p > img, .section1-block2 > p > img, .section1-block3 > p > img {
+        width: 8%;
+    }
+    .section2-title > h3 {
+        font-size: 60px;
+        padding: 57px 0 50px 193px;
+    }
+    .section3-title > h3 {
+        font-size: 60px;
+        padding: 0px 80px 70px 90px;
+    }
+    .section3-text > p {
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .section3-button > a {
+        font-size: 25px;
+        line-height: 30px;
+        padding: 8px 55.5px;
+        margin-bottom: 100px;
+    }
+    .section4-title > h4 {
+        font-size: 50px;
+        line-height: 65.9%;
+    }
+    .section4-img > img:nth-of-type(2) {
+        width: 35%;
+        margin: 30px 0 0px 245px;
+    }
+    .section4-img > img:nth-of-type(1) {
+        width: 43%;
+        left: 129px;
+        top: -68px;
+    }
+    .section4-img > img:nth-of-type(3) {
+        margin-left: 160px;
+        margin-top: 132px;
+        width: 32%;
+    }
+    .section4-title > p {
+        font-size: 20px;
+        line-height: 113.4%;
+    }
+    .section5-title > h4 {
+        font-size: 50px;
+        text-align: center;
+    }
+    .section5-inputs > form > input {
+        font-size: 18px;
+        line-height: 47.4%;
+        width: 350px;
+    }
+    textarea {
+        width: 350px;
+        font-size: 18px;
+        line-height: 50%;
+        height: 160px;
+    }
+    .section5-text > p {
+        font-size: 22px;
+        line-height: 128.4%;
+        padding: 0 0 0 20px;
+    }
+    button {
+        font-size: 19px;
+        line-height: 29px;
+        padding: 4px 59.5px;
+        margin-top: 20px;
+    }
+    .section5-text > img {
+        margin: 64px 0px -109px 0;
+    }
+    .footer-tel > a, .footer-nav > a {
+        font-size: 21px;
+        line-height: 98.4%;
+        margin-left: 5px;
+    }
+    .footer-pol > a {
+        margin: 25px 0 25px 30px;
+    }
+    .title-line > img {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .container {
+        width: 600px;
+    }
+    .nav-menu > ul > li > a, .mobile-menu-block-item > a {
+        padding: 0 8px;
+        font-size: 13px;
+    }
+    .nav-logo > a > img {
+        width: 70%;
+    }
+    .title-block > h1 {
+        font-size: 26px;
+        line-height: 100.4%;
+        padding: 0 20px 0 0;
+    }
+    .title-block > p {
+        padding: 22px 54px 40px 0;
+        font-size: 18px;
+    }
+    .title-block > a {
+        font-size: 17px;
+        padding: 1px 37.5px;
+    }
+    .title-img1 > img {
+        width: 50%;
+    }
+    .title-line > img {
+        height: 290px;
+    }
+    .section1-title > h2 {
+        font-size: 38px;
+        padding: 50px 20px 50px 20px;
+    }
+    .back-cl {
+        background-size: 80%;
+    }
+    .section2-title > h3 {
+        font-size: 48px;
+        padding: 39px 0 50px 120px;
+    }
+    .section2-flex {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .section2-img > img { 
+        width: 12%;
+    }
+    .section3-title > h3 {
+        font-size: 45px;
+        padding: 0px 35px 60px 50px;
+    }
+    .section2-img {
+        padding: 23px 0 50px;
+    }
+    .section3-img { 
+        width: 100%;
+        text-align: center;
+        order: 2;
+    }
+    .section3-flex {
+        flex-wrap: wrap;
+    }
+    .section3-img > img {
+        width: 80%;
+    }
+    .section3-text {
+        padding: 0 10px 0px 80px;
+        order: 1;
+    }
+    .section3-text > p {
+        font-size: 21px;
+    }
+    .section3-button > a {
+        font-size: 21px;
+        line-height: 27px;
+        padding: 8px 20.5px;
+        margin-bottom: 50px;
+        margin-top: 30px;
+    }
+    .section4-title > h4 {
+        font-size: 38px;
+        line-height: 79.9%;
+    }
+    .section4-title > p {
+        font-size: 17px;
+        padding: 36px 0 20px;
+    }
+    .section4-img > img:nth-of-type(3) {
+        width: 35%;
+        margin-top: 80px;
+        margin-left: 74px;
+    }
+    .section4-img > img:nth-of-type(2) {
+        width: 35%;
+        margin: 30px 0 0px 7px;
+    }
+    .section4-img > img:nth-of-type(1) {
+        left: 21px;
+        top: -84px;
+    }
+    .section5-title > h4 {
+        font-size: 45px;
+        text-align: start;
+    }
+    .section5-flex {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .section5-inputs {
+        width: 100%;
+        order: 2;
+    }
+    .section5-text {
+        width: 100%;
+        order: 1;
+    }
+    .section5-text > img {
+        display: none;
+    }
+    .section5-text > p {
+        font-size: 22px;
+        line-height: 128.4%;
+        padding: 0px 210px 30px 0px;
+        text-align: start;
+    }
+    .section5-inputs > form > input {
+        width: 500px;
+    }
+    textarea {
+        width: 500px;
+    }
+    .footer-flex {
+        flex-wrap: wrap;
+    }
+    .footer-logo, .footer-tel, .footer-nav {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .footer-pol {
+        text-align: center;
+    }
+    .footer-pol > a {
+        margin: 15px 0 25px 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .container {
+        width: 95%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-mobile__menu {
+        display: block;
+        z-index: 1;
+        width: 40%;
+    }
+    .nav-mobile__menu img {
+        width: 23px;
+    }
+    .nav-logo {
+        width: 40%;
+    }
+    .nav-logo > a > img {
+        width: 65%;
+    }
+    .section5-inputs > form > input {
+        width: 324px;
+        font-size: 13px;
+    }
+    textarea {
+        width: 324px;
+        font-size: 13px;
+    }
+    .header-title {
+        margin-left: 10%;
+        border-radius: 43px 0 0 43px;
+        margin-top: 20px;
+    }
+    .title-block > p {
+        padding: 5px 21px 15px 0;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .title-block > h1 {
+        font-size: 27px;
+        padding: 0 3px 0 0;
+    }
+    .title-block > a {
+        font-size: 15px;
+        padding: 5px 22px;
+        line-height: 18px;
+    }
+    .title-block {
+        padding: 55px 6px 61px 13px;
+        width: 65%;
+    }
+    .title-img1 > img {
+        width: 77.1%;
+    }
+    .title-img1 {
+        padding-top: 132px;
+    }
+    .title-line2 {
+        display: block;
+        width: 290px;
+        order: 3;
+        position: absolute;
+        bottom: 0px;
+        left: 70px;
+    }
+    .title-line {
+        display: none;
+    }
+    .title-block__img {
+        width: 35%;
+        position: relative;
+    }
+    .title-img2 {
+        display: none;
+    }
+    .nav-flex {
+        padding-top: 43px;
+    }
+    .back-cl {
+        background-size: 80% 405px;
+    }
+    .section1-title > h2 {
+        font-size: 30px;
+    }
+    .section1-flex h4 {
+        font-size: 20px;
+        line-height: 24px;
+        padding: 16px 0 20px;
+    }
+    .section1-flex p {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .section1-block1, .section1-block2, .section1-block3 {
+        width: 30%;
+    }
+    .section2-title > h3 {
+        font-size: 30px;
+        padding: 39px 0 46px 10px;
+    }
+    .section2-img {
+        padding: 14px 0 93px;
+    }
+    .section3-title > h3 {
+        font-size: 30px;
+        padding: 0px 8px 46px 19px;
+    }
+    .section3-text {
+        padding: 0px 10px 0px 15px;
+    }
+    .section3-img > img {
+        width: 97.8%;
+    }
+    .section3-button > a {
+        font-size: 15px;
+        line-height: 18px;
+        padding: 7.5px 27px;
+        margin-bottom: 92px;
+    }
+    .section4 {
+        margin-right: 25px;
+    }
+    .section4-flex {
+        flex-wrap: wrap;
+    }
+    .section4-title {
+        width: 100%;
+        padding: 0 9px;
+    }
+    .section4-title > h4 {
+        font-size: 30px;
+        line-height: 139%;
+        padding-top: 47px;
+    }
+    .section4-img > img:nth-of-type(1) {
+        width: 100%;
+        left: -37px;
+        top: -128px;
+    }
+    .section4-img > img:nth-of-type(2) {
+        width: 65.5%;
+        margin: 30px 0 0px 96px;
+    }
+    .section4-img > img:nth-of-type(3) {
+        width: 65.5%;
+        margin-top: 95px;
+    }
+    .section5-title > h4 {
+        font-size: 30px;
+        padding-bottom: 11px;
+    }
+    .section5-text > p {
+        font-size: 15px;
+        line-height: 139.4%;
+        padding: 0px 91px 46px 0px;
+    }
+    button {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 2.5px 25.5px;
+        margin-top: 20px;
+        margin-bottom: 93px;
+    }
+    .footer-tel > a, .footer-nav > a {
+        font-size: 15px;
+        line-height: 139.4%;
+        margin-left: 5px;
+    }
+    .footer-logo {
+        order: 1;
+    }
+    .footer-nav {
+        order: 2;
+    }
+    .footer-tel {
+        order: 3;
+    }
+    .footer-nav > img, .footer-tel > img {
+        width: 18px;
+    }
+    .footer-pol > a {
+        font-size: 11px;
+    }
+    .back-img {
+        background-image: url('/images/home/bcmediaimg.png');
+    }
+}

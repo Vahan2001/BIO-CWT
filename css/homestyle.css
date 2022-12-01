@@ -1,0 +1,496 @@
+@import url('../fonts/stylesheet.css');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1306px;
+    margin: auto;
+}
+.d-f {
+    display: flex;
+    width: 100%;
+}
+.t-c {
+    text-align: center;
+}
+.back-cl {
+    background-color: #222021 ;
+    background-image: url('../images/home/pexels-lumn.png');
+    background-repeat: no-repeat;
+}
+.back-img {
+    background-image: url('../images/home/bcimg.png');
+    background-color: #22202182;
+}
+/* HEADER CSS START */
+.nav-logo {
+    width: 30%;
+}
+.nav-menu {
+    width: 60%;
+    align-self: center;
+}
+.nav-flex {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 57px;
+    padding-top: 56px;
+}
+.nav-menu > ul > li {
+    display: inline;
+}
+.nav-menu > ul > li > a, .mobile-menu-block-item > a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F5F5F5;
+    padding: 0 31.5px;
+    transition-duration: 0.5s;
+}
+.mobile-menu-block-item > a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    color: #F5F5F5;
+    padding: 0 14.5px;
+    transition-duration: 0.5s;
+}
+.nav-menu > ul > li > a:hover {
+    color: #589fff;
+}
+.nav-mobile__menu {
+	display: none;
+}
+.nav-mobile__menu {
+    text-align: right;
+    align-self: center;
+    width: 80%;
+}
+.mobile-menu-block-item > a {
+	text-decoration: none;
+}
+.mobile-menu-block {
+	width: 0px;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-image: url('../images/home/bcswg.png');
+    background-color: #222021;
+	transition: width 0.7s;
+	overflow: hidden;
+}
+.text-left {
+	text-align: left;
+}
+.mobile-menu-block label {
+	color: white;
+	cursor: pointer;
+}
+.mobile-menu-block-item {
+	color: white;
+	list-style: none;
+}
+#toggle-menu:checked + .mobile-menu-block {
+	width: 176px;
+	padding: 16px;
+}
+.header-title {
+    margin-left: 195px;
+    margin-top: 84px;
+    background-color: #1e0c06de;
+    border-radius: 43px 0px 0px 43px;
+}
+.title-block {
+    padding: 75px 0 102px 50px;
+    width: 55%;
+}
+.title-line {
+    width: 5%;
+    margin-top: 43px;
+}
+.title-line2 {
+    display: none;
+}
+.title-block > h1 {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 115.4%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    padding: 0 75px 0 0;
+}
+.title-block > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 39px;
+    color: #FFDBBB;
+    padding: 22px 325px 62px 0;
+}
+.title-block > a {
+    display: inline-block;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    background: #728BAD;
+    border-radius: 42px;
+    padding: 11px 70.5px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.title-block > a:hover {
+    background: #fcfcfc;
+    color: black;
+}
+.title-block__img {
+    width: 40%;
+}
+.title-img1 {
+    padding-top: 316px;
+    padding-right: 40px;
+    transition: all 0.5s;
+    transform: scale(1, 1);
+}
+.title-img1:hover {
+    transform: scale(-1, 1);
+}
+.title-img2 > img:nth-of-type(1){
+    padding: 42px 0 204px;
+    transition: all 0.5s;
+    transform: translate(0px, 0px);
+}
+.title-img2 > img:nth-of-type(1):hover {
+    transform: translate(0px, 60px);
+    cursor: pointer;
+}
+.title-img2 > img:nth-of-type(2){
+    transition: all 0.5s;
+    transform: translate(0px, 0px);
+}
+.title-img2 > img:nth-of-type(2):hover {
+    transform: translate(0px, -60px);
+    cursor: pointer;
+}
+/* HEADER CSS END */
+/* MAIN CSS START */
+/* SECTION 1 CSS START */
+.section1-title > h2 {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    padding: 254px 300px 125px 240px;
+}
+.section1-flex {
+    justify-content: space-evenly;
+}
+.section1-flex h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 39px 0;
+}
+.section1-flex p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    padding-bottom: 24px;
+}
+.section1-block1, .section1-block2, .section1-block3 {
+    width: 22%;
+}
+.section1-block1 > img, .section1-block2 > img, .section1-block3 > img {
+    margin-left: 40px;
+    transition: all 0.5s;
+    transform: scale3d(1, 1, 1);
+}
+.section1-block1 > img:hover, .section1-block2 > img:hover, .section1-block3 > img:hover {
+    transform: scale3d(1.2, 1.2, 1.5);
+}
+/* SECTION 1 CSS END */
+/* SECTION 2 CSS START */
+.section2-title > h3 {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;    
+    text-transform: uppercase;
+    color: #F5F5F5;
+    padding: 263px 0 121px 238px;
+}
+.section2-flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.slider {
+    width: 1130px;
+    height: 775px;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.slider-line {
+    height: 754px;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+.slider-line > img {
+    border-radius: 5%;
+}
+.slider-next, .slider-prev {
+    cursor: pointer;
+}
+/* SECTION 2 CSS END */
+/* SECTION 3 CSS START */
+.section3-title > h3 {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;    
+    text-transform: uppercase;
+    color: #F5F5F5;
+    padding: 0 130px 121px 230px;
+}
+.section3-flex {
+    justify-content: space-evenly;
+    padding-bottom: 121px;
+}
+.section3-text { 
+    padding: 0 195px 0px 70px;
+}
+.section3-text > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;    
+    color: #F5F5F5;
+    padding-bottom: 46px;
+}
+.section3-button > a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    background: #728BAD;
+    border-radius: 42px;
+    padding: 11px 70.5px;
+    margin-bottom: 305px;
+    transition-duration: 0.5s;
+}
+.section3-button > a:hover {
+    background: #fcfcfc;
+    color: black;
+}
+/* SECTION 3 CSS END */
+/* SECTION 4 CSS START */
+.section4 {
+    background-color: #1e0c068f;
+    margin-right: 115px;
+    border-radius: 0px 42px 42px 0px;
+}
+.section4-flex {
+    justify-content: space-evenly;
+}
+.section4-title {
+    width: 42%;
+}
+.section4-title > h4 {
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase; 
+    color: #F5F5F5;
+    padding-top: 44px;
+}
+.section4-title > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 139.4%;    
+    color: #F5F5F5;
+    padding: 67px 0 250px;
+}
+.section4-img {
+    width: 50%;
+    position: relative;
+    padding-bottom: 50px;
+}
+.section4-img > img:nth-of-type(1) {
+    margin-top: 177px;
+    position: absolute;
+    border-radius: 25%;
+    border: 14px solid #1E0C06;
+}
+.section4-img > img:nth-of-type(2) {
+    margin: 85px 0 272px 245px;
+}
+.section4-img > img:nth-of-type(3) {
+    margin-left: 220px;
+}
+/* SECTION 4 CSS END */
+/* SECTION 5 CSS START */
+.section5 {
+    padding-top: 192px;
+}
+.section5-title > h4 {
+    text-align: end;
+    font-family: 'KyivType Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 90px;
+    line-height: 132.9%;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    padding-bottom: 45px;
+}
+.section5-flex {
+    justify-content: space-evenly;
+}
+.section5-inputs {
+    width: 48%;
+}
+.section5-inputs > form > input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    border: 4px solid #728BAD;
+    border-radius: 42px;
+    background-color: #ffffff00;
+    width: 598px;
+    padding: 14px 0 14px 20px;
+    margin-bottom: 23px;
+}
+textarea {
+    border: 4px solid #728BAD;
+    border-radius: 42px;
+    background-color: #ffffff00;
+    width: 598px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    padding: 14px 0 14px 20px;
+    height: 257px;
+}
+.section5-text {
+    width: 45%;
+}
+.section5-text > p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;    
+    text-align: right;
+    color: #F5F5F5;
+    padding: 0 0 0 45px;
+}
+button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #F5F5F5;
+    background: #728BAD;
+    border-radius: 42px;
+    padding: 9px 68.5px;
+    margin-top: 40px;
+    transition-duration: 0.5s;
+}
+button:hover {
+    background: #fcfcfc;
+    color: black;
+    cursor: pointer;
+}
+.section5-text > img {
+    width: 100%;
+    margin: 140px 0px -193px 0;
+    transform: rotate(0deg);
+    transition: all 0.5s;
+}
+.section5-text > img:hover {
+    transform: rotate(10deg);
+}
+/* SECTION 5 CSS END */
+/* MAIN CSS END */
+/* FOOTER CSS START */
+footer {
+    background-color: #222021;
+    padding-top: 70px;
+    position: relative;
+}
+.footer-flex {
+    justify-content: space-evenly;
+}
+.footer-tel > a, .footer-nav > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 139.4%;
+    color: #F5F5F5;
+    display: inline-block;
+    margin-left: 18px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.footer-tel > a:hover, .footer-nav > a:hover {
+    color: #589fff;
+}
+.footer-pol > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 139.4%;
+    color: #F5F5F5;
+    display: inline-block;
+    text-decoration: none;
+    margin: 58px 0 61px 110px;
+    transition-duration: 0.5s;
+}
+.footer-pol > a:hover {
+    color: #589fff;
+}
+/* FOOTER CSS END */

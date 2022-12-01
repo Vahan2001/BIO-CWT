@@ -1,0 +1,231 @@
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 1200px;
+    }
+    .section2-flex > img:nth-of-type(2){
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1250px) {
+    .container {
+        width: 1000px;
+    }
+    .nav-menu {
+        width: 75%;
+    }
+    .nav-logo {
+        width: 20%;
+    }
+    .mapw {
+        width: 500px !important;
+    }
+    .section1-title > h1 {
+        font-size: 70px;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .container {
+        width: 800px;
+    }
+    .nav-logo > a > img {
+        width: 80%;
+    }
+    .nav-menu > ul > li > a, .mobile-menu-block-item > a {
+        padding: 0 10px;
+    }
+    .mapw {
+        width: 400px !important;
+    }
+    .info-nav, .info-tel {
+        padding-right: 30px;
+    }
+    .info-tel {
+        padding-top: 60px;
+    }
+    .section1-flex {
+        padding: 180px 0 106px;
+    }
+    .footer-tel > a, .footer-nav > a {
+        font-size: 21px;
+        line-height: 98.4%;
+        margin-left: 5px;
+    }
+    .footer-pol > a {
+        margin: 25px 0 25px 30px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .container {
+        width: 600px;
+    }
+    .section2 {
+        display: block;
+        padding-top: 0;
+    }
+    .nav-menu > ul > li > a, .mobile-menu-block-item > a {
+        padding: 0 8px;
+        font-size: 13px;
+    }
+    .nav-logo > a > img {
+        width: 70%;
+    }
+    .section1-title > h1 {
+        font-size: 45px;
+        text-align: start;
+    }
+    .info-tel > a, .info-nav > a {
+        font-size: 18px;
+    }
+    .info-tel > img, .info-nav > img {
+        width: 40px;
+    }
+    .section2-flex {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .section2-inputs {
+        width: 100%;
+        order: 2;
+    }
+    .section2-text {
+        width: 100%;
+        order: 1;
+    }
+    .section2-text > img {
+        display: none;
+    }
+    .section2-text > p {
+        font-size: 22px;
+        line-height: 128.4%;
+        padding: 0px 210px 30px 0px;
+        text-align: start;
+    }
+    .section2-inputs > form > input {
+        width: 500px;
+    }
+    textarea {
+        width: 500px;
+    }
+    .footer-flex {
+        flex-wrap: wrap;
+    }
+    .footer-logo, .footer-tel, .footer-nav {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .footer-pol {
+        text-align: center;
+    }
+    .footer-pol > a {
+        margin: 15px 0 25px 0;
+    }
+    .section1-flex {
+        flex-wrap: wrap;
+    }
+    .section1-title {
+        width: 100%;
+    }
+    .section1-map {
+        width: 100%;
+        padding-top: 49px;
+    }
+    .section1-title > h1 {
+        font-size: 55px;
+        text-align: center;
+    }
+    .mapw {
+        width: 600px !important;
+    }
+}
+@media screen and (max-width: 650px) {
+    .container {
+        width: 95%;
+    }
+    .nav-menu {
+        display: none;
+    }
+    .nav-mobile__menu {
+        display: block;
+        z-index: 1;
+        width: 40%;
+    }
+    .nav-mobile__menu img {
+        width: 23px;
+    }
+    .nav-logo {
+        width: 40%;
+    }
+    .nav-logo > a > img {
+        width: 65%;
+    }
+    .nav-flex {
+        padding: 45px 0 22px;
+    }
+    .section1-flex {
+        padding: 23px 0 106px;
+    }
+    .info-tel {
+        padding-top: 41px;
+        text-align: start;
+    }
+    .info-nav, .info-tel {
+        padding-right: 15px;
+        text-align: start;
+    }
+    .mapw {
+        width: 347px !important;
+        height: 230px !important;
+    }
+    .section2-inputs > form > input {
+        width: 324px;
+        font-size: 13px;
+    }
+    textarea {
+        width: 324px;
+        font-size: 13px;
+    }
+    .section2-title > h4 {
+        font-size: 30px;
+        padding-bottom: 11px;
+    }
+    .section2-text > p {
+        font-size: 15px;
+        line-height: 139.4%;
+        padding: 0px 91px 46px 0px;
+    }
+    button {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 2.5px 25.5px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .footer-tel > a, .footer-nav > a {
+        font-size: 15px;
+        line-height: 139.4%;
+        margin-left: 5px;
+    }
+    .footer-logo {
+        order: 1;
+    }
+    .footer-nav {
+        order: 2;
+    }
+    .footer-tel {
+        order: 3;
+    }
+    .footer-nav > img, .footer-tel > img {
+        width: 18px;
+    }
+    .footer-pol > a {
+        font-size: 11px;
+    }
+    .back-img {
+        background-image: url('/images/contact/bcmediaimg.png');
+    }
+    .nav-bg {
+        box-shadow: 0px -8px 52px rgba(245, 245, 245, 0.17);
+        border-radius: 0px 0px 30px 30px;
+    }
+}
